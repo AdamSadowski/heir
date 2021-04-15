@@ -9,7 +9,9 @@
 status](https://travis-ci.com/AdamSadowski/heir.svg?branch=master)](https://travis-ci.com/AdamSadowski/heir)
 <!-- badges: end -->
 
-The goal of heir is to …
+Healthy Eating Index (HEI) scoring is not the simplest of calculations.
+This package contains a function to compute HEI total and component
+scores from ASA 24-hour diet recall data.
 
 ## Installation
 
