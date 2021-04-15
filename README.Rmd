@@ -1,0 +1,61 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# heir
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of heir is to ...
+
+## Installation
+
+You can install the released version of heir from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("heir")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("AdamSadowski/heir")
+```
+
+## Quick demo
+
+Adding HEI columns to the end of a data frame via `hei()`:
+
+1) Example data:
+
+```{r example}
+library(heir)
+
+asa.df <- read.csv(".\\tests\\testthat\\asa_example_df.csv")
+
+asa.df
+```
+
+2) `hei()` creates HEI variables for each row. It accepts a data frame and returns it with these added variables. 
+
+```{r}
+df <- hei(asa.df)
+
+# grep just to show X and HEI variables
+
+df[, grep("X|HEI", names(df))]
+
+```
