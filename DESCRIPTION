@@ -1,5 +1,5 @@
 Package: heir
-Title: Calculate HEI-2015 Scores Using ASA-24 Data
+Title: Calculate HEI-2015 Scores Using 'ASA24' Data
 Version: 0.1.0
 Authors@R: 
     person(given = "Adam",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "asebsadowski@gmail.com",
            comment = c(ORCID = "https://orcid.org/0000-0002-8023-9227"))
-Description: Healthy Eating Index (HEI) scoring is not the simplest of calculations. This package contains a function to compute HEI total and component scores from ASA-24 hour diet recall data.
+Description: Healthy Eating Index (HEI) scoring is not the simplest of calculations. But this package simply does it! Function hei() will compute HEI-2015 total and component scores using data from 'ASA24' (2016 version and subsequent versions). It implements the 'simple HEI scoring algorithm' as described at <https://epi.grants.cancer.gov/hei/hei-methods-and-calculations.html/>. The 'ASA24' system is described at <https://epi.grants.cancer.gov/asa24/>. HEI-2015 is described by Krebs-Smith et al. (2018) <doi:10.1016/j.jand.2018.05.021>. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
