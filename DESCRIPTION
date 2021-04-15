@@ -1,15 +1,14 @@
 Package: heir
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Calculate HEI-2015 Scores Using ASA-24 Data
+Version: 0.1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Adam",
+           family = "Sadowski",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "asebsadowski@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0002-8023-9227"))
+Description: Healthy Eating Index (HEI) scoring is not the simplest of calculations. This package contains a function to compute HEI total and component scores from ASA-24 hour diet recall data.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
