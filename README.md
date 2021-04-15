@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/AdamSadowski/heir.svg?branch=master)](https://travis-ci.com/AdamSadowski/heir)
 <!-- badges: end -->
 
 The goal of heir is to …
