@@ -13,11 +13,11 @@ knitr::opts_chunk$set(
 )
 ```
 
-# heir
-
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.com/AdamSadowski/heir.svg?branch=master)](https://travis-ci.com/AdamSadowski/heir)
-<!-- badges: end -->
+  [![R-CMD-check](https://github.com/AdamSadowski/heir/workflows/R-CMD-check/badge.svg)](https://github.com/AdamSadowski/heir/actions)
+  <!-- badges: end -->
+
+# heir
 
 Healthy Eating Index (HEI) scoring is not the simplest of calculations. But this package simply does it! Function hei() will compute HEI-2015 total and component scores using data from 'ASA24' (2016 version and subsequent versions). It implements the 'simple HEI scoring algorithm' as described at <https://epi.grants.cancer.gov/hei/hei-methods-and-calculations.html>. The 'ASA24' system is described at <https://epi.grants.cancer.gov/asa24>. HEI-2015 is described by Krebs-Smith et al. (2018) <doi:10.1016/j.jand.2018.05.021>. 
 

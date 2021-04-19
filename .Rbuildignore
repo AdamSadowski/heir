@@ -2,5 +2,6 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
-^\.travis\.yml$
 ^cran-comments.md$
+^CRAN-RELEASE$
+^\.github$
