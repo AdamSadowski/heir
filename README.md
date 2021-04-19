@@ -1,16 +1,15 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# heir
-
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.com/AdamSadowski/heir.svg?branch=master)](https://travis-ci.com/AdamSadowski/heir)
+[![R-CMD-check](https://github.com/AdamSadowski/heir/workflows/R-CMD-check/badge.svg)](https://github.com/AdamSadowski/heir/actions)
 <!-- badges: end -->
 
+# heir
+
 Healthy Eating Index (HEI) scoring is not the simplest of calculations.
-But this package simply does it! Function hei() will compute HEI-2015
+But this package simply does it\! Function hei() will compute HEI-2015
 total and component scores using data from ‘ASA24’ (2016 version and
 subsequent versions). It implements the ‘simple HEI scoring algorithm’
 as described at
@@ -39,12 +38,14 @@ devtools::install_github("AdamSadowski/heir")
 
 Adding HEI columns to the end of a data frame via `hei()`:
 
-1.  Example data:
+1)  Example data:
+
+<!-- end list -->
 
 ``` r
 library(heir)
 
-asa.df <- read.csv(".\\tests\\testthat\\asa_example_df.csv")
+asa.df <- read.csv("./tests/testthat/asa_example_df.csv")
 
 asa.df
 #>   X     KCAL      PROT      TFAT     CARB     MOIS      ALC     CAFF     THEO
@@ -133,8 +134,10 @@ asa.df
 #> 5   5.090900        0
 ```
 
-2.  `hei()` creates HEI variables for each row. It accepts a data frame
+2)  `hei()` creates HEI variables for each row. It accepts a data frame
     and returns it with these added variables.
+
+<!-- end list -->
 
 ``` r
 df <- hei(asa.df)

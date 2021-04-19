@@ -45,7 +45,7 @@ Adding HEI columns to the end of a data frame via `hei()`:
 ```{r example}
 library(heir)
 
-asa.df <- read.csv(".\\tests\\testthat\\asa_example_df.csv")
+asa.df <- read.csv("./tests/testthat/asa_example_df.csv")
 
 asa.df
 ```
